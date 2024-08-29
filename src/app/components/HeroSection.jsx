@@ -3,13 +3,14 @@ import image from "../../../public/resources/full-tyre.png";
 import Image from "next/image";
 import {House, MapPin, MessageSquareText, Star} from "lucide-react";
 import {ShieldCheck} from "lucide-react";
+import Footer from "./Footer";
 
 const HeroSection = () => {
   return (
-    <div className="flex bg-white w-full h-fit items-center justify-center ">
+    <div className="flex bg-white w-full h-screen items-center justify-center ">
       {/* Image on left side */}
 
-      <div className="h-fit flex items-center justify-center mt-5 bg-white w-2/5">
+      <div className="h-screen flex items-center justify-center mt-5 bg-white w-2/5">
         <Image
           src={image}
           alt="abc"
@@ -19,7 +20,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content on the righ hand side  */}
-      <div className="h-fit w-3/5 mt-5 bg-white">
+      <div className="h-screen w-3/5 mt-5 bg-white">
         <div className=" ">
           <h1 className="font-bold text-lg">
             Michelin Latitude Sport 3 265/45 R20
